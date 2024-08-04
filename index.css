@@ -1,0 +1,106 @@
+body
+{
+    background: url(images\ \(1\).jfif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* backdrop-filter: blur(30px); */
+}
+header
+{
+    position: absolute;
+    top: 10%;
+}
+ .title
+ {
+     color: white;
+     font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     background-image:url('images.jfif');
+     background-size: cover;
+     background-clip: text;
+     color: transparent;
+     filter:drop-shadow(2px 5px  5px #ff2929)
+     
+     /* background: rgba(255,255,255,.1); */
+   
+ }
+ .title2
+ {
+    color: rgb(255, 236, 236);
+    text-align: center;
+    font-size: 20px;
+ }
+ input
+ {
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  position: relative;
+  left:25%;
+  text-align: center;
+  filter:drop-shadow(5px 5px  15px #b3b2b2)
+ }
+ button
+ {
+     position: absolute;
+     left: 58%;
+     cursor: pointer;
+     background: transparent;
+     color: rgb(0, 0, 0);
+     outline: none;
+     border: none;
+     padding: 0 -30px 0 30px;
+     width:30px ;
+     height: 30px;
+     font-size: 24px;
+ }
+#re
+ {
+    max-width: 255px;
+    height: auto;
+    outline: none;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+    list-style-type: none;  
+    position: relative;
+    left:25%;
+    top:-15px;
+ }
+ #re li
+{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 5px 25px ;
+}
+#re li a
+{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+#re li:hover
+{
+background-color: #f1f1f1;
+}
+#movieimg
+{
+    position: absolute;
+    top:60%;
+    left:15%;
+    width: 200px;
+    height: 200px;
+     display: none;
+}
